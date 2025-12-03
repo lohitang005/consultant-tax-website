@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: tax-consultant-api
+    env: node
+    buildCommand: npm install --production
+    startCommand: npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 8080
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: GEMINI_CHAT_API_KEY
+        sync: false
+      - key: GEMINI_BLOG_API_KEY
+        sync: false
+      - key: CONTACT_FORM_API_KEY
+        sync: false
+    autoDeploy: true 

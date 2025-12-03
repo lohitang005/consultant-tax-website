@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <path d="M100 100h600v400h-600z" fill="#f5f5f5" opacity="0.5"/>
+  <circle cx="400" cy="300" r="250" fill="#e8eaf6" opacity="0.3"/>
+  
+  <!-- Dashboard Frame -->
+  <rect x="150" y="100" width="500" height="350" rx="10" fill="white" stroke="#1a237e" stroke-width="2"/>
+  
+  <!-- Header Bar -->
+  <rect x="150" y="100" width="500" height="50" rx="10" fill="#1a237e"/>
+  <circle cx="180" cy="125" r="8" fill="#ff5252"/>
+  <circle cx="210" cy="125" r="8" fill="#ffeb3b"/>
+  <circle cx="240" cy="125" r="8" fill="#4caf50"/>
+  
+  <!-- Sidebar -->
+  <rect x="150" y="150" width="100" height="300" fill="#f5f5f5"/>
+  <rect x="170" y="170" width="60" height="8" rx="4" fill="#1a237e" opacity="0.7"/>
+  <rect x="170" y="190" width="40" height="8" rx="4" fill="#1a237e" opacity="0.5"/>
+  <rect x="170" y="210" width="50" height="8" rx="4" fill="#1a237e" opacity="0.5"/>
+  
+  <!-- Main Content -->
+  <rect x="280" y="170" width="340" height="100" rx="8" fill="#e8eaf6"/>
+  <path d="M300 220l40-30 40 20 40-40 40 30 40-20" stroke="#1a237e" stroke-width="2" fill="none"/>
+  
+  <!-- Cards -->
+  <rect x="280" y="290" width="160" height="80" rx="8" fill="#1a237e" opacity="0.1"/>
+  <rect x="460" y="290" width="160" height="80" rx="8" fill="#1a237e" opacity="0.1"/>
+  
+  <!-- Bottom Stats -->
+  <rect x="280" y="390" width="340" height="40" rx="8" fill="#e8eaf6"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="700" cy="500" r="80" fill="#1a237e" opacity="0.1"/>
+  <circle cx="100" cy="100" r="60" fill="#1a237e" opacity="0.1"/>
+</svg> 
